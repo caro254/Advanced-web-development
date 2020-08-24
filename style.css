@@ -39,35 +39,34 @@ grid-template-columns: 1fr;
 }
 /* portfolio styles */
 .porfolio-items-wrapper{
-    display: grid;
-    grid-template-columns: 1fr  1fr 1fr;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
 }
 .porfolio-item-wrapper{
     position: relative;  
 }
 .porfolio-img-background{
-    height: 350px;
-    width: 100%;
-    background-size: cover;
+    height:500px;
+    width:200%;
+    background-size:cover;
     background-position:center;
-    background-repeat: no-repeat;  
+    background-repeat:no-repeat;  
 }
 .img-text-wrapper{
-    position: absolute;
+    position:absolute;
     top:0;
-    display: flex;
+    display:flex;
     flex-direction: column;
-    justify-self: center;
-    text-align: center;
-    padding-left: 100px;
-    scroll-padding-right: 100px;
+    text-align:center;
+    padding-left:100px;
+    padding-right:100px;
 }
 .logo-wrapper img{
-    width: 50%;
-    margin-bottom: 20px;
+    position:absolute ;
+    
 }
 
-.img-text-wrapper.subtitle{
+.img-text-wrapper .subtitle{
 transition: 1s;
 font-weight: 600;
 color: transparent;
@@ -76,7 +75,7 @@ color: transparent;
     font-weight: 600;
     color:lightseagreen;
 }
-.img-darken {
+.img-darken{
     transition: 1s;
     filter: brightness(10%); 
 }
