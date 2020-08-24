@@ -39,7 +39,7 @@
 
             <div class="image-text-wrapper">
                 <div class="logo-wrapper">
-                    <img src="images/logos/quip.png">
+                    <img src="images/natural.jpg">
                 </div>
                
                 <div class="subtitle">
@@ -56,7 +56,7 @@
             
                         <div class="image-text-wrapper">
                             <div class="logo-wrapper">
-                                <img src="images/logos/quip.png">
+                                <img src="images/library.jpg">
                             </div>
                            
                             <div class="subtitle">
@@ -72,7 +72,7 @@
                         
                                     <div class="image-text-wrapper">
                                         <div class="logo-wrapper">
-                                            <img src="images/logos/quip.png">
+                                            <img src="images/fun.jpg">
                                         </div>
                                        
                                         <div class="subtitle">
@@ -88,7 +88,7 @@
                                     
                                                 <div class="image-text-wrapper">
                                                     <div class="logo-wrapper">
-                                                        <img src="images/logos/quip.png">
+                                                        <img src="images/natural.jpg">
                                                     </div>
                                                    
                                                     <div class="subtitle">
@@ -104,7 +104,7 @@
                                                 
                                                             <div class="image-text-wrapper">
                                                                 <div class="logo-wrapper">
-                                                                    <img src="images/logos/quip.png">
+                                                                    <img src="images/indoor.jpg">
                                                                 </div>
                                                                
                                                                 <div class="subtitle">
@@ -117,6 +117,15 @@
        
 
 </body>
+<script>
+    const porfilioItems =document.querySelectorAll('porfolio-item-wrapper');
+    porfilioItems.forEach(porfilioItem =>{
+        porfilioItem.addEventListener('mouseover',() =>{
+    console.log(porfilioItem.childNodes[1].classList);
+    porfilioItem.childNodes[1].classList.add('img-darken');
+        })
+    })
+</script>
 </html>
 
 <!-- the best site for images is unsplash.com--> 
